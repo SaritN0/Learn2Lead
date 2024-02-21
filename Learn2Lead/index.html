@@ -27,15 +27,8 @@
             <li><a href="./about.html">ABOUT</a></li>
             <li><a href="#">COURSE</a></li>
             <li><a href="#">BLOG</a></li>
+            <li><a href="#internships" class="smooth-scroll">INTERNSHIPS</a></li>
             <li><a href="./contact.html">CONTACT</a></li>
-            <div class = "dropdown">
-              <span><li><a heaf ="#Reg">REGISTER</a></li></span>
-            <div class = "dropdown-content">
-              <a href="TeacherRegister.html">Teacher</a>
-              <a href="StudentRegister.html">Student</a>
-            </div>
-              </div>
-            <li><a href="#">INTERNSHIPS</a></li>
          
           </ul>
         </div>
@@ -67,9 +60,12 @@
 
         <button type="submit" class="btn">Login</button>
 
-        <div class="register-link">
-          <p> Don't have and account? <a href="register.html">Register</a>
-          </p>
+        <div class="dropdown">
+          <span> <a href="#Reg" id="registerLink">Dont have an account? Register</a></span>
+        <div class="dropdown-content" id="dropdown">
+          <a href="TeacherRegister.html">Teacher</a>
+          <a href="StudentRegister.html">Student</a>
+        </div>
         </div>
       </form>
     </div>
@@ -106,6 +102,8 @@
     </div>
   </section>
   <!-- campus -->
+
+  <a id="internships"></a>
   <section class="campus">
     <h1>Top Internships</h1>
     <p>Top Companies providing Internships</p>
