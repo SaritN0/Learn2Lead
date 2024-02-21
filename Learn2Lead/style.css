@@ -781,6 +781,9 @@ footer */
 .dropdown {
   position: relative;
   display: inline-block;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 45px;
 }
 .dropdown-content {
   display: none;
