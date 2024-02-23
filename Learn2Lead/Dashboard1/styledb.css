@@ -1008,7 +1008,6 @@ a[data-toggle="collapse"] {
     margin-top: 10px;
 }
 
-#rebenue {}
 
 .graph_revenue {
     padding: 0;
@@ -1119,3 +1118,69 @@ a[data-toggle="collapse"] {
 }
 
 
+.pie-chart-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(243, 0, 0, 0.1);
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    min-width: calc(25% - 20px); /* Adjust the width based on your preference */
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff; /* Set your desired background color */
+    border: 1px solid #000000; /* Add border for better visibility */
+    border-radius: 5px; /* Add rounded corners if desired */
+    overflow: hidden;
+}
+
+.dashboard-content{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    overflow: hidden;
+ }
+ 
+ .progress {
+    height: 100%;
+    width: 0;
+    background-color: #4caf50;
+    transition: width 0.5s ease-in-out;
+ }
+ 
+ .progress-label {
+    margin-top: 10px;
+    text-align: center;
+    color: #555;
+ }
+
+#generate {
+    background: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    width: 20%;
+    height: 45px;
+ }
