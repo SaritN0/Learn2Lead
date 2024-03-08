@@ -1,107 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>University Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <body>
-    <section class="sub-header">
-      <nav>
-        <a href="index.html"><img src="./images/logo.png" alt="" /></a>
-        <div class="nav-links" id="navLinks">
-          <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="./index.html">HOME</a></li>
-            <li><a href="./about.html">ABOUT</a></li>
-            <li><a href="./course.html">COURSE</a></li>
-            <li><a href="./blog.html">BLOG</a></li>
-            <li><a href="./contact.html">CONTACT</a></li>
-          </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Module</title>
+    <link rel="stylesheet" href="styleC.css">
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="images/logo/logoblack.png" alt="logo" width="350px"></a>
+    </div>
+        <div class="navbar">
+            <ul>
+            <li>
+                <span><a href="index.html">Home</a></span>
+            </li>
+            <li>
+                <span><a href='about.html'>About</a></span>
+            </li>
+            <li>
+                <span><a href='blog.html'>Blog</a></span>
+            </li>
+            <li>
+                <span><a href='#internship'>Internship</a></span>
+            </li>
+            <li>
+                <span><a href='contact.html'>Contact</a></span>
+            </li>
+            </ul>
         </div>
-        <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
-      </nav>
-      <h1>Our Courses</h1>
-    </section>
+      <h1>Course list</h1>
+      <h2>IT courses</h2>
+    <div class="course-listings">
+         
+        <div class="course">
+            
+            <a href="https://www.youtube.com/watch?v=ysEN5RaKOlA&pp=ygUad2ViIGRldmVsb3BlciBmdW5kYW1lbnRhbHM%3D" target="_blank"><img src="images/courses/Web.jpg" alt="it course1"></a>
+            <h2>Web developer</h2>
+            <div class="details">
+                <span class="original-price">Become a Full-Stack Web Developer with just ONE course.</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
+        
+        <div class="course">
+            <a href="https://www.youtube.com/watch?v=3uaF6sn4ZpQ&list=PLLSovFY-eK2_1isRMtrNS_me4zDrs2CuS" target="_blank"><img src="images/courses/Digital marketing.jpg" alt="it course2"></a>
+            <h2>Digital marketing</h2>
+            <div class="details">
+                <span class="original-price">Build a Digital Marketing Strategy.</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
 
-   <!--course-->
+        <div class="course">
+            
+            <a href="https://www.youtube.com/watch?v=5MMoxyK1Y9o&pp=ygUaY3liZXJzZWN1cml0eSBmdW5kZW1lbnRhbHM%3D" target="_blank"><img src="images/courses/cyber.jpg" alt="it course3"></a>
+            <h2>CyberSecurity</h2>
+            <div class="details">
+                <span class="original-price">Become a Cyber Security Specialist, Learn How to Stop Hackers, Prevent Hacking</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
 
-   <section class="course">
-    <h1>Courses We Offer</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <div class="row">
-      <div class="course-col">
-        <h3>Intermediate</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-           Itaque voluptatibus sit quia hic aliquam nam! Doloremque cumque placeat, 
-           repudiandae soluta exercitationem minus libero magnam, aspernatur, 
-           quidem dolor ex aut quibusdam!
-        </p>
-      </div>
-      <div class="course-col">
-        <h3>Degree</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-           Itaque voluptatibus sit quia hic aliquam nam! Doloremque cumque placeat, 
-           repudiandae soluta exercitationem minus libero magnam, aspernatur, 
-           quidem dolor ex aut quibusdam!
-        </p>
-      </div>
-      <div class="course-col">
-        <h3>Post Graduation</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-           Itaque voluptatibus sit quia hic aliquam nam! Doloremque cumque placeat, 
-           repudiandae soluta exercitationem minus libero magnam, aspernatur, 
-           quidem dolor ex aut quibusdam!
-        </p>
-      </div>
-    </div>
-  </section>
+        <div class="course">
+            <a href="https://www.youtube.com/watch?v=RWgW-CgdIk0&pp=ygUdY2xvdWQgY29tcHV0aW5nICBmdW5kZW1lbnRhbHM%3D" target="_blank"></a><img src="images/courses/clouid.jpg" alt="it course4"></a>
+            <h2>Cloud Computing</h2>
+            
+            <div class="details">
+                <span class="original-price">This course covers fundamental concepts of cloud computing and is designed for absolute beginners</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
 
-  <!----- facitlities------->
+        <div class="arrow">
+            <img src="images/courses/arrow.png"alt="arrow">
+         </div>
+    </div>     
+        <h2>Business courses</h2>
+    <div class=" course-listings">
+        <div class="course">
+            <a href="https://www.youtube.com/watch?v=YHBVjv4MYXE&list=PL8dPuuaLjXtNamNKW5qlS-nKgA0on7Qze" target="_blank"><img src="images/courses/Entrepreneurship.jpg" alt="b course1"></a>
+            <h2>Entrepreneurship</h2>
+        
+            <div class="details">
+                <span class="original-price"> creation or extraction of economic value in ways that generally entail beyond the minimal amount of risk, and potentially involving values besides simply economic ones.</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
 
-  <section class="facilities">
-    <h1>Our Facilities</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-    <div class="row">
-      <div class="facilities-col">
-        <img src="./images/library.png" alt="">
-        <h3>World Class Library</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit delectus, voluptate fuga blanditiis saepe mollitia odio accusantium nulla reprehenderit vero?</p>
-      </div>
-      <div class="facilities-col">
-        <img src="./images/basketball.png" alt="">
-        <h3>Largest Play Ground</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit delectus, voluptate fuga blanditiis saepe mollitia odio accusantium nulla reprehenderit vero?</p>
-      </div>
-      <div class="facilities-col">
-        <img src="./images/cafeteria.png" alt="">
-        <h3>Tasty And Healthy Food</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit delectus, voluptate fuga blanditiis saepe mollitia odio accusantium nulla reprehenderit vero?</p>
-      </div>
-    </div>
-  </section>
+        <div class="course">
+            <a href="https://www.youtube.com/watch?v=-psusaPKLg0&list=PLEiEAq2VkUUIhyGLSiEzotDRF0hc1xbiN" target="_blank"><img src="images/courses/business analytic.jpg" alt="b course2"></a>
+            <h2>Business Analytics</h2>
+        
+            <div class="details">
+                <span class="original-price">Skills you'll gain: Data Analysis, Business Analysis, Probability & Statistics, Statistical Analysis, Leadership and Management</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
 
-<!--end facilities-->
+        <div class="course">
+            <a href="https://www.youtube.com/watch?v=mgyHccyPciA&list=PLOC8BVd_rhAcGr7jWSMjU96pqtEMdl8X9" target="_blank"><img src="images/courses/finanace.jpg" alt="b course3"></a>
+            <h2>Finance</h2>
+        
+            <div class="details">
+                <span class="original-price">Advance your career with our business management courses. Learn essential strategies for leadership, operations, marketing, and finance</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
 
-    <section class="footer">
-      <h4>About Us</h4>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur error asperiores vero vel incidunt sit!</p>
-      <div class="icons">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
-      </div>
-      <p>Made Width <i class="fa-solid fa-heart"></i> by Me Papuna</p>
-    </section>
+            <div class="course">
+                <a href="https://www.youtube.com/watch?v=rck3MnC7OXA&list=PLTZYG7bZ1u6puLWxUtqAjZkIB4dB_JFzk" target="_blank"><img src="images/courses/project mangagement.jpg" alt="b course4"></a>
+                <h2>Project management</h2>
+        
+            <div class="details">
+                <span class="original-price">One of the more popular business training courses from Google, the Project Management Certification, teaches you all about organizational culture, strategic</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
+        <div class="arrow">
+            <img src="images/courses/arrow.png"alt="arrow">
+         </div>
 
-    <script src="script.js"></script>
-  </body>
+     </div>
+
+     
+        <h2>Design courses</h2>
+    <div class=" course-listings">
+        <div class="course">
+            <a href="https://www.youtube.com/watch?v=pF--YKCCUMw&pp=ygUdYW5pbWF0aW9uIGRlc2lnbiBmdW5kZW1lbnRhbHM%3D" target="_blank"><img src="images/courses/animation.jpg" alt="D course1"></a>
+            <h2>Animation design</h2>
+        
+            <div class="details">
+                <span class="original-price">Understand the basic and important principles of rigging and animating</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
+
+        <div class="course">
+            <a href="https://www.youtube.com/watch?v=GQS7wPujL2k&list=PLgGbWId6zgaXiWYDAcJbXzBNlAnYg7pgL" target="_blank"><img src="images/courses/graphic.jpg" alt="D course2"></a>
+            <h2>Graphic design</h2>
+        
+            <div class="details">
+                <span class="original-price">Have a deep understanding of typography, color theory, photos, layout, blocking and other design theory and skills</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
+
+        <div class="course">
+            <a href="https://www.youtube.com/watch?v=9Yomqk0C6kE&list=PLc38fcMFcV_vToz9Nvc_YQTNH8hkIQ2uC" target="_blank"><img src="images/courses/Game.jpg" alt="D course3"></a>
+            <h2>Game design</h2>
+        
+            <div class="details">
+                <span class="original-price">Learn to design games understanding all their constitutive parts and how they connect with each other</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
+
+            <div class="course">
+                <a href="https://www.youtube.com/watch?v=iYp6SyHwTA0&list=PLL0cLF8gjBpoFLdP8rGpTCXespcXvlT2q" target="_blank"><img src="images/courses/3D.jpg" alt="D course4"></a>
+                <h2>3D design</h2>
+        
+            <div class="details">
+                <span class="original-price">Learn how to work with Blender 3.0 like a pro with this step-by-step course!</span>
+                <span class="discounted-price"></span>
+            </div>
+        </div>
+        <div class="arrow">
+            <img src="images/courses/arrow.png"alt="arrow">
+         </div>
+
+     </div>
+
+     
+
+
+</body>
 </html>
