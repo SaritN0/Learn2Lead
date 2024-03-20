@@ -46,7 +46,7 @@ body {
    background-image: url('desgin\images\cool-background.png'); /* Replace with the path to your GIF */
    background-size: cover;
    background-repeat: no-repeat;
-   background-position: top left;
+   background-position: center center;
    background-color: var(--light-bg);
    padding-left: 30rem;
    
