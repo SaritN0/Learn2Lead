@@ -324,6 +324,7 @@ section{
 .side-bar .profile{
    padding:3rem 2rem;
    text-align: center;
+   background-color: #15283c;
 }
 
 .side-bar .profile .image{
@@ -336,7 +337,7 @@ section{
 
 .side-bar .profile .name{
    font-size: 2rem;
-   color:var(--black);
+   color:white;
    overflow: hidden;
    text-overflow: ellipsis;
    white-space: nowrap;
@@ -344,27 +345,28 @@ section{
 
 .side-bar .profile .role{
    font-size: 1.8rem;
-   color: var(--light-color);
+   color: gray;
 }
 
 .side-bar .navbar a{
    display: block;
    padding: 2rem;
    font-size: 2rem;
+   text-align: left;
 }
 
 .side-bar .navbar a i{
    margin-right:  1.5rem;
-   color:var(--main-color);
+   color:white;
    transition: .2s linear;
 }
 
 .side-bar .navbar a span{
-   color:black;
+   color: white;
 }
 
 .side-bar .navbar a:hover{
-   background-color: grey;
+   background-color: rgb(76, 76, 76);
 }
 
 .side-bar .navbar a:hover i{
